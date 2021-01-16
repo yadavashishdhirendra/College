@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #36424294;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+
+.cards {
+  /* margin-top: 100px; */
+  display: inline-flex;
+  padding: 20px 35px;
+}
+
+.card {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.card_info{
+  text-align: center;
+  padding: 20px 22px;
+}
+
+.card_category{
+  font-size: 1rem;
+}
+
+.card_title{
+  font-size: 1.33rem;
+}
+
+.btn{
+  font-size: 1.33rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  outline: none;
+  cursor: pointer;
+  padding: 7px 20px;
+}
+
+img{
+  border-radius: 9px;
+}
+
+.btn:hover{
+  background-color: teal;
+  transition: .5s ease-in-out;
+  color: white;
+}
+
+
+.cards .card {
+  transition: transform .9s ease;
+}
+
+.cards:hover .card {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+h1{
+  text-align: center;
+  background-color: #716827e8;
+  margin-top: 1px;
+  /* height: 8vh; */  
+  color: white;
+  display: block;
+  /* width: 100%; */
+  text-shadow:-6px 3px 2px #424035;
+  text-transform: uppercase;
+  white-space: nowrap;
+  /* overflow: hidden; */
+  font-size: 1.44rem;
+  -webkit-text-emphasis-style: open;
+}
